@@ -1,0 +1,118 @@
+/*heda lkol isele7*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 826px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  .article{
+    width: 263px;
+    border: 1px solid #555555;
+    margin: 5px;
+    transform: 0.3s all ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0)
+  }
+  .article:hover{
+    transform: translateY(-5px);
+    
+  }
+  .exclusif{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    transform: 0.3s all ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0)
+    
+  
+  
+  }
+  .exclusif:hover{
+    transform: translateY(-5px);
+    
+  }
+  .image{
+    text-align: center;
+    margin: 15px 0;
+  
+  
+  
+  
+  }
+  .image img{
+    max-width: 100%;
+    max-height: 150PX;
+  }
+  .titre{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    border-top: 1px solid  ;
+    border-bottom: thick solid red ;
+  }
+  .prices{
+    margin: 5px;
+    text-align: right;
+  }
+  .prices>.oldprice{
+    color: #5e5e5e;
+    font-size: 0.9em;
+    text-decoration: line-through ;
+  }
+  .prices>.newprice{
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+  
+  }
+  h1{
+    font-size: 80px;
+    font-weight: 80px;
+    margin: 20px 0;
+  }
+  h1 .logo{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: url(images/logod.png);
+    vertical-align: middle;
+  
+  }
+
+
+
+ /* moch tabe3 heda fotouh heda */
+
+  h3{text-align: center;
+    font-size: 2.9em;
+    padding: 3px;
+    margin: 20px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,rgb(233, 34, 34)40%,white 50%);
+    border: 1px solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    transform: 0.3s all ease;
+    box-shadow: 0 0 10px rgb(0,0,0);
+ 
+  }
+  h3:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transform: translateY(-5px);
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  p{
+    text-align: center;
+    font-size: 1.9em;
+  }

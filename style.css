@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(to right,rgb(236, 167, 236),lightblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+h3{
+    text-align: center;
+    font-size: 2.9em;
+    padding: 3px;
+    margin: 0;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,rgb(238, 150, 238) 14%, lightblue);
+    border: 1px solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    transform: 0.3s all ease;
+    box-shadow: 0 0 10px rgb(0,0,0);
+ 
+}
+h3:hover{
+    background: linear-gradient(to right,lightblue 14%, rgb(238, 150, 238));
+    box-shadow: 0 0 10px rgb(238, 150, 238);
+    transform: translateY(-5px);
+}
+.h7cm{
+    width: 100%;
+    
+    box-shadow: 0 0 10px rgb(238, 150, 238);
+    border-radius: 11px;
+}
+li{
+    font-size: 1.1em;
+    margin-bottom: 4px;
+    color: rgb(27, 1, 1);
+    
+}
+#a2{
+    font-size: 1.2em;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 7px ;
+    background: linear-gradient(to right,red ,blue);
+    text-decoration: none;
+    color: white;
+    
+      
+   
+  box-shadow: 0 0 10px rgb(0, 0, 0)
+}
+#a2:hover{
+    background: linear-gradient(to right,blue ,red);
+    color: white;
+    box-shadow: 0 0 10px rgb(238, 150, 238);
+}
+code{
+    font-size: 1.5em;
+    color: red;
+}
+#a1{
+    text-decoration: none;
+    color: black ;
+  
+}
